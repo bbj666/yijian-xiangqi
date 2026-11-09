@@ -1,0 +1,29 @@
+{
+  "name": "yijian-xiangqi",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@pikafish-js/rules": "1.0.0",
+    "lucide-react": "1.70.0",
+    "pikafish-js": "1.0.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "6.3.0",
+    "typescript": "^5.9.3",
+    "vite": "8.3.7"
+  },
+  "packageManager": "pnpm@10.19.0"
+}
