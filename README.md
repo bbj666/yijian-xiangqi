@@ -46,7 +46,7 @@ Cross-Origin-Resource-Policy: same-origin
 2. 在 Render 选择 **New > Blueprint**。
 3. 连接该仓库并应用 Blueprint。
 
-Render 会执行 `pnpm build`，再由 `server.mjs` 提供静态文件和 WebAssembly 所需的隔离响应头。
+Render 会安装依赖并执行生产构建，再由 `server.mjs` 提供静态文件和 WebAssembly 所需的隔离响应头。
 
 ## 技术与许可
 
